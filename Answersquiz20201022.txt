@@ -1,0 +1,39 @@
+
+1. NL Games
+	- "Pay from My Wallet, if funds will be available"
+		*what difference does it make whether it's checked or not?
+If it is not checked? System will log each line without paying from available funds in the acount. the account will have amount credit the user has in the site. This helps in terms of time as user may just log and save a group of lines on his/her account and only pay for the and play them later with just a single click. When it is checked system logs 40(i will need to verify this number to be sure) and pays for them before logging another 40, untill end of file. it takes couple seconds for each line to logged. This only applies to NL Games site. The HB only continues when the user has enough credit and logs 10 lines at time before paying. 
+
+	- Browse to load game file
+		* explain input file structure
+For type of game the user has to prepare a txt file with line and columns particluarly for that game.pressing this button direct the system which file to use. If user chooses wrongly formated file. System rejects and message indicate the file has more or less colums than required, so user can choose approriate file. 
+
+	- Remove all my current saved Tickets
+		* what happens if I click this button?
+This buuton work particularly on NL Game site, where logged lines are saved on user's account. When clicked the system log into the NL site and remove all saved lines on the site.  
+
+	- Delete selected payment receipts
+		I saw it is deleting files listed in user specific folder
+		* what are these files? the files 
+			that I uploaded by clicking Browse button? if not tell me.
+
+No. Each time the system logs a line on the game site, it also creates a date/time/stamp and details of the line which it has just logged.  This is the receipt. This helps if something went wrong and the connection to the site was broken. User can then see which was the last line to be logged and edit the txt file so he start from the appropriate point of the file.
+
+	* give detailed information when and what files are logged where?
+		(NL and HB games respectively)
+		Nl Games.
+		1.System log on the NL site , www.nationallotteries.co.za
+		2. Inputs username and passwrod.
+		3 Based on settings already chosen by user (i.e game type, require bet amount, specified file), logs each line 			referenced txt onto the site's number panel. (for NL games, system logs 40 lines, before applying 			payment routine. if pay from availabe funds has been clicked. esle it kips on logging until account 			has 35 items in the cart. then stops.)
+			The NL has further option boxes. that is Add PowerBall plus, Add Lotto Plus1, and Add Lotto Plus 2. 
+			The Add Powerball Plus works with the Powerball Game. When Clicked, it means for each powerball txt 				line bet, the system will also add a powerball plus option avaible on the NL Powerball 				options.
+			Similarly, the options Lotto Plus 1 and Lotto Pus 2 options, works with the Lotto game option. Such 				that for each txt line input the system will also selcet these available options the NL Game 			site.
+    	
+			HB follows the same route as described here above, only that it does not have powerball plus or lotto 			plus option.
+			Again with the HB Game site, the system only logs 10 lines before following the payment routine. Here 			the user doe not have option not to pay from available funds in the user account. 
+	
+
+2. HB Games
+
+3. Wager: the wager only work to direct the system to the appropriate user chosen site and start the process. For it only has NL Game and HB Game. This will added with supabet site.
+  
